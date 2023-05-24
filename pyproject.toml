@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bigdata-course-spark"
+version = "0.1.0"
+description = ""
+authors = ["ARQtty <ShamovIA@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "bigdata_course_spark"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyspark = "^3.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
